@@ -1,0 +1,236 @@
+{
+  "index": {
+    "menu": {
+      "title": "Edustajistovaalit 2016",
+      "sign_up": "Kirjaudu",
+      "elections": "Äänestä",
+      "profile": "Omat Tiedot",
+      "sign_out": "Poistu"
+    }
+  },
+
+  "pages": {
+    "main": {
+      "page_title": "Edustajistovaalit",
+      "you_may_check_eligibility":
+        "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut 15.9.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
+      "sign_in_using_university_account":
+        "Kirjaudu sisään Helsingin yliopiston käyttäjätunnuksellasi.",
+      "eligibility_check": "Vaalikelpoisuuden tarkastaminen",
+      "voting_opening_hours": "Äänestäminen on avoinna klo {{ open }} - {{ close }}.",
+      "voting_opens_at": "Äänestäminen avautuu",
+      "voting_has_ended": "Äänestys on päättynyt",
+      "result_will_be_published_at": "Tulos julkistetaan osoitteessa",
+      "voting_continues_at": "Äänestys jatkuu {{ day }} klo {{ time }}",
+
+      "button_caption_eligibility": "Tarkasta vaalikelpoisuus",
+      "button_caption_vote": "Äänestämään!"
+    },
+
+    "sign_in_error": {
+      "no_voting_right": {
+        "title": "Ei äänioikeutta",
+        "lead": "Opiskelijanumerollasi ei ole äänioikeutta.",
+        "body": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään.",
+        "button_caption": "Palaa etusivulle"
+      },
+
+      "invalid_saml_response": {
+        "title": "Kirjautumisvirhe",
+        "lead": "Yhteistyö yliopiston kirjautumispalvelun kanssa epäonnistui.",
+        "body": "Jos ongelma ei poistu uudella yrityksellä, ota yhteys HYYn vaalityöntekijään.",
+        "button_caption": "Yritä uudelleen"
+      },
+
+      "general": {
+        "title": "Tuntematon virhe",
+        "lead": "Jotain meni tuntemattomasta syystä pieleen.",
+        "body": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään.",
+        "button_caption": "Yritä uudelleen"
+      }
+
+    },
+
+    "sign_in": {
+      "loading": "Ladataan",
+
+      "error": {
+        "title_invalid_key": "Avain ei kelpaa",
+        "lead": "Sisäänkirjautumislinkkisi on vanhentunut tai äänestys on suljettu.",
+        "private_browsing_note": "Tarkista myös, ettei selaimesi ole Private Browsing tilassa.",
+        "request_new_link": "Pyydä uusi linkki",
+
+        "private_browsing_mode": {
+          "title": "Selaimesi on yksityistilassa",
+          "lead": "Selaimesi käyttää \"Private Browsing Mode\" -yksityisyysasetusta, mikä estää vaalijärjestelmän toiminnan.",
+          "what_now": "Avaa sisäänkirjautumislinkki tavallisessa selainikkunassa."
+        }
+
+      }
+    },
+
+    "sign_up": {
+      "page_title": "Kirjaudu sisään",
+      "attention": "Huom!",
+      "voting_days_are": "Äänestyspäivät ovat {{ firstPeriod }} ja {{ secondPeriod }}",
+      "voting_open_hours_are": "Äänestys on avoinna klo {{ range }} välisenä aikana.",
+      "primary_button_caption": "Kirjaudu sisään",
+      "if_cannot_sign_in": "Mikäli et voi käyttää yliopiston käyttäjätunnusta tai sisäänkirjautuminen ei jostain syystä onnistu, ota yhteys HYYn vaalityöntekijään {{ name }}, {{ email }}, {{ phone }}.",
+      "sign_in_is_not_active": "Äänestäminen ei ole tällä hetkellä avoinna.",
+
+      "edari": {
+        "eligibility": "Olet äänioikeutettu, kun olet ilmoittautunut läsnäolevaksi ja maksanut HYYn jäsenmaksun. Voit sisäänkirjautua äänestämään Helsingin yliopiston käyttäjätunnuksellasi.",
+
+        "late_member_note": "Mikäli ilmoittauduit läsnäolevaksi vasta äskettäin, opiskelijanumeroasi ei välttämättä vielä löydy äänoikeutettujen listasta. Tällöin saat kirjautumisen jälkeen saat ilmoituksen, ettei sinulla ole äänioikeutta. Sinulle voidaan kuitenkin luoda äänioikeus, mikäli esität tositteen jäsenmaksun maksamisesta HYYn keskustoimistolla."
+      },
+
+      "request_link": {
+        "ingress":
+          "Anna opiskelijarekisteriin tallentamasi sähköpostiosoite, niin sinulle lähetetään sisäänkirjautumislinkki.",
+        "password_instructions":
+          "Salasana lähetetään ainoastaan ennalta tunnettuun sähköpostiosoitteeseen. Tarkista opiskelijarekisteriin antamasi sähköpostiosoitteesi <a href='https://weboodi.helsinki.fi'>kirjautumalla WebOodiin</a>.",
+        "spam_instructions":
+          "Tarkista myös sähköpostisi roskapostikansio, mikäli et saa sisäänkirjautumislinkkiä.",
+        "in_case_of_fire":
+          "Viime kädessä ota yhteys HYYn vaalityöntekijään <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> tai +358 50 551 6147.",
+
+        "attention": "Huom!",
+        "election_dates_explained":
+          "Äänestys on auki ti 15.12.2015 klo 9:00 - 20:00 ja ke 16.12.2015 klo 9:00 - 17:00 välisenä aikana.",
+        "staff_eligibility_note":
+          "Vakituiseen henkilökuntaan kuuluvilla ei ole äänioikeutta hallinnon opiskelijaedustajien vaalissa.",
+        "private_browsing_note":
+          "Varmista, ettei selaimesi ole Private Browsing tilassa, kun avaat linkin.",
+
+        "input_caption_email": "Sähköposti",
+        "button_caption_submit": "Lähetä sisäänkirjautumislinkki",
+        "button_caption_submitting": "Lähetetään ..",
+
+        "link_has_been_sent":
+          "Sisäänkirjautumislinkki on lähetetty antamaasi osoitteeseen!",
+        "pls_check_email":
+          "Kirjaudu sisään noudattamalla sähköpostiosoiteeseesi lähetettyjä ohjeita.",
+
+        "something_went_wrong": {
+          "detail": "Linkkiä ei voitu lähettää.",
+          "if_happens_again":
+            "Jos ongelma toistuu, ota yhteys HYYn vaalityöntekijään HYYn vaalityöntekijään vaalit@hyy.fi +358 50 551 6147.",
+          "pls_explain":
+            "Kerro vaalityöntekijälle virheen tekninen syy:"
+        },
+
+        "errors": {
+          "not_eligible_in_any_election": "Sinulla ei ole äänioikeutta yhteenkään vaaliin.",
+          "session_creation_not_permitted": "Äänestys ei ole avoinna. Näet äänestämisen aukiolon päivämäärän ja kellonajan yllä."
+        }
+      }
+    },
+
+    "sign_out": {
+      "page_title": "Olet kirjautunut ulos",
+      "ingress": "Voit sulkea selainikkunan."
+    },
+
+    "profile": {
+      "page_title": "Omat tiedot",
+      "ingress": "Olet kirjautunut sisään seuraavin tiedoin.",
+      "you_are_eligible":
+        "Olet vaalikelpoinen oman laitoksesi ja tiedekunnan vaaleissa (Ylioppilaskunnan säännöt hallinnon opiskelijaedustajien vaalista 5 §).",
+      "in_case_of_problem":
+        "Jos tiedoissa on epäselvyyksiä, ota yhteys ylioppilaskuntaan.",
+      "voter": {
+        "name": "Nimi",
+        "email": "Email",
+        "phone": "Puhelin",
+        "faculty": "Tiedekunta",
+        "department": "Laitos"
+      }
+    },
+
+    "vote": {
+      "page_title": "Äänestä",
+
+      "error": {
+        "something_went_wrong": "Kävi hassusti",
+        "could_not_load_candidates": "Ehdokastietojen lataaminen epäonnistui.",
+        "try_again": "Kirjaudu ulos ja yritä kirjautua uudelleen sisään.",
+        "button_caption": "Yritä uudelleen"
+      },
+
+      "vote-ballot": {
+        "title": "Äänestyslippu",
+        "header-number": "Numero",
+        "header-name": "Nimi",
+        "ingress": "Valitse ehdokas alla olevasta listasta.",
+        "registration-note": "Äänesi kirjataan vasta, kun painat \"Äänestä\".",
+        "about-to-change-existing-vote": "Olet muuttamassa aiemmin antamaasi ääntä. Muutos kirjataan vasta kun painat 'Äänestä'.",
+        "button-submit-caption": "Äänestä",
+        "button-submit-confirm": "Paina uudelleen",
+        "submitting": "Äänestetään .."
+      },
+
+      "coalition-index-text": "Vaalirenkaat koostuvat vaaliliitoista ja vaaliliitot koostuvat ehdokkaista.",
+      "voting-right-already-used": "Olet jo käyttänyt äänioikeutesi",
+      "vote-has-been-cast": "Äänesi on kirjattu!",
+      "if-you-are-eligible-in-others": "Jos sinulla on äänioikeus useassa vaalissa,",
+      "choose-next-election": "valitse seuraava vaali",
+      "close-window-when-finished": "Sulje lopuksi selainikkuna.",
+
+      "search": {
+        "title": "Hae ehdokasta",
+        "candidate-name": "Ehdokasnimi",
+        "header-number": "Numero",
+        "header-candidate": "Ehdokas",
+        "browser-search-tip": "Voit käyttää myös selaimen hakutoimintoa.",
+        "when-no-results": "Vaaliliitot, jotka eivät vastanneet hakuehtoasi, eivät ole näkyvissä."
+      }
+    },
+
+    "elections": {
+      "page_title": "Äänestä",
+      "sign_in": "Sisäänkirjaudu",
+      "sign_up_please": "Pääset äänestämään sen jälkeen, kun olet kirjautunut sisään.",
+      "sign_up_button_caption": "Aloitetaan!",
+
+      "you_can_vote_in_the_following": "Voit äänestää seuraavissa vaaleissa:",
+      "choose_election": "Avaa vaali, valitse ehdokas ja paina \"äänestä\".",
+      "submit_vote_help": "Äänesi rekisteröidään, kun painat \"äänestä\"-nappia ehdokkaan valitsemisen jälkeen.",
+      "vote_is_immutable": "Et voi muuttaa antamaasi ääntä jälkikäteen.",
+
+      "table_header": {
+        "election_name": "Vaalin nimi",
+        "status": "Äänestetty"
+      },
+
+      "not_started": {
+        "voting_has_not_started_yet": "Äänestäminen ei ole vielä alkanut."
+      },
+
+      "empty": {
+        "no_elections_available": "Sinulla ei ole äänioikeutta yhteenkään vaaliin."
+      }
+    }
+
+  },
+
+  "common": {
+    "loading": "Ladataan"
+  },
+
+  "partials": {
+    "info": {
+      "main_title": "HYYn edustajistovaalit",
+      "ingress":
+        "HYYn edustajistovaaleissa valitaan ylioppilaskunnan ylin päättävä elin, 60-henkinen edustajisto. Äänioikeutettuja ovat HYYn jäsenet eli noin 27 000 Helsingin yliopiston opiskelijaa.",
+      "election_dates_explained":
+        "Äänestyspäivät ovat {{ firstPeriod }} ja {{ secondPeriod }}. Äänestys on avoinna klo {{ range }}."
+    },
+
+    "contact": {
+      "more_info": "Lisätietoa",
+      "hyy_ae_link_caption": "HYYn hallintovaalisivusto",
+      "hyy_election_link_caption": "HYYn vaalisivusto",
+      "in_case_of_fire": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään"
+    }
+  }
+}
