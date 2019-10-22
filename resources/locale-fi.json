@@ -23,7 +23,7 @@
       "voting_opening_hours": "Äänestäminen on avoinna klo {{ open }} - {{ close }}.",
       "voting_opens_at": "Äänestäminen avautuu",
       "voting_has_ended": "Äänestys on päättynyt",
-      "result_will_be_published_at": "Tulos julkistetaan osoitteessa <a href='https://www.ayy.fi/fi/edustajistovaalit'>ayy.fi/vaalit</a>",
+      "result_will_be_published_at": "Tulos julkistetaan osoitteessa <a href='https://www.ayy.fi/fi/edustajistovaalit'>https://www.ayy.fi/fi/edustajistovaalit</a>",
       "voting_continues_at": "Äänestys jatkuu {{ day }} klo {{ time }}",
 
       "button_caption_eligibility": "Tarkasta vaalikelpoisuus",
